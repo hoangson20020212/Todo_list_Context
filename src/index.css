@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: orange;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.input_text {
+  height: 35px;
+  width: 300px;
+  font-size: 20px;
+}
+
+.complete-btn {
+  background-color: red;
+  color: black;
+  outline: none;
+  border: 1px solid red;
+  border-radius: 4px;
+  margin: 10px 10px 10px 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
